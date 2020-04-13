@@ -24,6 +24,6 @@ fmt.Scanln(&a)
 //ask user for points possible and scan for b
 fmt.Println("Enter in the amount of points possible")
 fmt.Scanln(&b)
-//cal average(a, b)
+//call average(a, b)
  fmt.Println(average(a, b))
 }
