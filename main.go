@@ -6,11 +6,11 @@ package main
 
 import "fmt"
 
-func average(a, b int)(string, int, string,int,string,int){
+func average(a, b int)(int){
 //declare a variabel for avg as (a+b)/2 to find the average
 avg := (a+b)/2
 
-return "with a score of",a,"and a possible score of",b,"Your average score is",avg
+return avg
 }
 
 
@@ -25,5 +25,5 @@ fmt.Scanln(&a)
 fmt.Println("Enter in the amount of points possible")
 fmt.Scanln(&b)
 //call average(a, b)
- fmt.Println(average(a, b))
+ fmt.Println("your average is",average(a, b),"points")
 }
